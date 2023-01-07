@@ -68,15 +68,15 @@
       font-size: 1em;
       padding-left: 1em;
       padding-right: 1em;
-      background-color: rgba(0, 130, 29, 0.7);
       color: white;
       font-weight: 700;
+      background-color: green;
     }
     .soldout {
       width: 140px;
       margin: 1em 0;
       display: inline-block;
-      background: rgba(224, 14, 14, 0.8);
+      background: rgba(224, 14, 14, 0.8)!important;
       border: 1px solid rgba(224, 14, 14, 0.8);
       border-radius: 0.25em;
       color: white;
