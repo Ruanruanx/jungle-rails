@@ -7,11 +7,14 @@
     <br>
     <p><%= product.description %></p>
   </td>
+  
   <td>
-    $ <%= product.price %>
+    $<%= product.price %>
   </td>
-
   <td>
-    $ <%= product.price * quantity %>
+    <%= quantity %>
+  </td>
+  <td>
+    $<%= product.price * quantity %>
   </td>
 </tr>
